@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Swiss Swan</title>
+
+		<link rel="shortcut icon" href="images/favicon.png" />
+		<link href="libraries/bootstrap/bootstrap.min.css" rel="stylesheet" />
+		<link href="libraries/fonts/font-awesome.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="libraries/fuelux/jquery-ui.min.css" />
+		<link href="style.css" rel="stylesheet" />
+		<link href="css/media.css" rel="stylesheet" />
+	</head>
+	<body data-offset="200" data-spy="scroll" data-target=".primary-navigation">
+		<a id="top"></a>
+
+		<!-- Header Section -->
+
+		<!-- Header Section /- -->
+		<!--Main Body-->
+		<div class="container query-category">
+			<h3>Browse Topic</h3>
+			<div class="row">
+				<div
+					class="col-md-3 col-sm-3 topics"
+					data-target="account-questions">
+					<p><img src="images/icon/person-4.svg" />Account</p>
+				</div>
+				<div
+					class="col-md-3 col-sm-3 topics"
+					data-target="return-and-exchanges-questions">
+					<p>
+						<img src="images/icons8-exchange-48.png" />Return and
+						Exchanges
+					</p>
+				</div>
+				<div
+					class="col-md-3 col-sm-3 topics"
+					data-target="credit-and-insider-questions">
+					<p>
+						<img
+							src="images/icon/icons8-credit-50.png" />TheSwissSwan
+						Credit and Insider
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div
+					class="col-md-3 col-sm-3 topics"
+					data-target="offer-questions">
+					<p><img src="images/icon/icons8-offer-48.png" />Offers</p>
+				</div>
+				<div
+					class="col-md-3 col-sm-3 topics"
+					data-target="payment-questions">
+					<p>
+						<img src="images/icon/icons8-payment-50.png" />Payment
+					</p>
+				</div>
+				<div
+					class="col-md-3 col-sm-3 topics"
+					data-target="cancellation-questions">
+					<p>
+						<img
+							src="images/icon/icons8-cancel-50.png" />Cancellation
+						& Charges
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="container info-section">
+			<ul
+				class="col-md-8 col-sm-12 account-questions"
+				id="account-questions">
+				<h2 class="mini-heading">Account</h2>
+				<p>
+					For account-related inquiries, please refer to the questions
+					below for detailed information. If you're still unable to
+					access your account, click on the
+					<a href="14_contact.html">"Contact Us"</a> option to get in
+					touch with our customer care team.
+				</p>
+				<li class="question">
+					How do I login into my SwissSwan account?
+					<span onclick="toggleAnswer(this)"
+						><img src="images/icon/arrow-down-3101.svg"
+					/></span>
+				</li>
+				<li class="answer">
+					<p>You can log in to Swisswan with these simple steps:</p>
+					<ul>
+						<li>
+							Click on <strong>LOG IN/SIGN UP</strong> and enter
+							your mobile number, then click on
+							<strong>CONTINUE</strong>.
+						</li>
+						<li>
+							An OTP will be sent to the mobile number entered by
+							you.
+						</li>
+						<li>
+							Verify the OTP, and after successful verification,
+							you will be able to log in to Swisswan.
+						</li>
+					</ul>
+				</li>
+				<hr />
+				<li class="question">
+					I am not able to login to my SwissSwan account.
+					<span onclick="toggleAnswer(this)"
+						><img src="images/icon/arrow-down-3101.svg"
+					/></span>
+				</li>
+				<li class="answer">
+					<p>
+						Don’t worry! Click below to talk to our customer care
+						executive.
+					</p>
+					<div class="container">
+						<div class="col-md-6 col-sm-6">
+							<button><strong>Call Now</strong></button>
+							<p>
+								For a better experience, call from your
+								registered number.
+							</p>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<button><strong>Write To Us</strong></button>
+							<p>Average Response Time: 24-48 Hrs</p>
+						</div>
+					</div>
+				</li>
+				<hr />
+				<li class="question">
+					Why am I not getting an OTP?
+					<span onclick="toggleAnswer(this)"
+						><img src="images/icon/arrow-down-3101.svg"
+					/></span>
+				</li>
+				<li class="answer">
+					<p>We recommend you follow these steps to get the OTP:</p>
+					<ul>
+						<li>
+							Check if you entered the correct phone number
+							registered to your Swisswan account.
+							<strong>Suggestion:</strong> Make sure you have
+							entered the correct and registered phone number
+							only.
+						</li>
+						<li>
+							Try checking the network connection/SMS blocker, as
+							these might cause the OTP to be delayed or blocked.
+						</li>
+						<li>Request the OTP once more.</li>
+					</ul>
+					<p>
+						Still unable to access your account? Click below to talk
+						to our customer care executive.
+					</p>
+					<div class="container">
+						<div class="col-md-6 col-sm-6">
+							<button><strong>Call Now</strong></button>
+							<p>
+								For a better experience, call from your
+								registered number.
+							</p>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<button><strong>Write To Us</strong></button>
+							<p>Average Response Time: 24-48 Hrs</p>
+						</div>
+					</div>
+				</li>
+				<hr />
+				<li class="question">
+					I am not getting the Forgot Password link.
+					<span onclick="toggleAnswer(this)"
+						><img src="images/icon/arrow-down-3101.svg"
+					/></span>
+				</li>
+				<li class="answer">
+					<p>
+						Don’t worry! Follow these steps to get the Forgot
+						Password link:
+					</p>
+					<ul>
+						<li>
+							Check if the registered email ID is valid. Also,
+							check the spam folder in your email.
+						</li>
+						<li>
+							The password reset link is only active for 24 hours,
+							so check if the link has expired.
+						</li>
+						<li>
+							Try resetting the password with the last three
+							passwords or check if there was a password mismatch.
+						</li>
+					</ul>
+					<p>
+						Still unable to access your account? Click below to talk
+						to our customer care executive.
+					</p>
+					<div class="container">
+						<div class="col-md-6 col-sm-6">
+							<button><strong>Call Now</strong></button>
+							<p>
+								For a better experience, call from your
+								registered number.
+							</p>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<button><strong>Write To Us</strong></button>
+							<p>Average Response Time: 24-48 Hrs</p>
+						</div>
+					</div>
+				</li>
+				<hr />
+				<li class="question">
+					Why is my account locked?
+					<span onclick="toggleAnswer(this)"
+						><img src="images/icon/arrow-down-3101.svg"
+					/></span>
+				</li>
+				<li class="answer">
+					<p>
+						Your SwissSwan account may get locked for a specified
+						time period or permanently if there are too many failed
+						login attempts.
+					</p>
+					<p>
+						This is for the security of your account. You should be
+						able to regain access to your account by resetting your
+						password.
+					</p>
+					<p>
+						If the issue persists, click below to talk to our
+						customer care executive.
+					</p>
+					<div class="container">
+						<div class="col-md-6 col-sm-6">
+							<button><strong>Call Now</strong></button>
+							<p>
+								For a better experience, call from your
+								registered number.
+							</p>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<button><strong>Write To Us</strong></button>
+							<p>Average Response Time: 24-48 Hrs</p>
+						</div>
+					</div>
+				</li>
+				<hr />
+				<li class="question">
+					Why are you collecting my personal details?
+					<span onclick="toggleAnswer(this)"
+						><img src="images/icon/arrow-down-3101.svg"
+					/></span>
+				</li>
+				<li class="answer">
+					<p>
+						SwissSwan uses your information to help you with faster
+						payments and delivery. We also save your likes and
+						preferences to show you personalized content that suits
+						your style.
+					</p>
+					<p>
+						For more details on how we use your personal data,
+						please refer to the SwissSwan Privacy Policy.
+					</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container info-section">
+			<div
+				class="col-md-8 col-sm-12 return-and-exchanges-questions"
+				id="return-and-exchanges-questions">
+				<h2 class="mini-heading">Returns &amp; Exchanges</h2>
+				<p>
+					Returns and exchanges are processed in accordance with the
+					updated policy provided on the Product Description Page
+					(PDP). Requests for return or exchange will be accommodated
+					as per this policy.
+				</p>
+				<p>
+					For non-serviceable PIN codes, you may self-ship the product
+					to our return desk. Please note that pickup and refund
+					timelines may vary based on the courier service and the
+					selected payment mode.
+				</p>
+
+				<ul>
+					<li class="question">
+						What is SwissSwan's Return and Exchange policy?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan provides a hassle-free return and exchange
+							policy.
+						</p>
+						<p>
+							The availability of return and exchange will be
+							mentioned on each product’s description page.
+							Generally, it ranges from 2 to 14 days, except for
+							certain high-priced products that are
+							non-returnable.
+						</p>
+						<p>
+							The availability of exchange service depends on
+							courier partner services and pin code.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						What is Style Exchange?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan provides a style exchange facility where
+							you can exchange a product from your order with a
+							different size, color, or a completely new and
+							different product from SwissSwan.
+						</p>
+						<p>
+							If the new product’s amount is higher than the
+							product you wish to exchange, you can pay that extra
+							amount via cash on delivery or using any of the
+							digital payment modes.
+						</p>
+						<p>
+							If the new product’s amount is lower than the
+							product you wish to exchange, you will get a refund
+							for the excess amount either to your bank account or
+							your original payment mode.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						What is Self-Ship &amp; how do I do it?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							For a few pin codes and due to certain courier
+							partners' limitations, SwissSwan is unable to
+							provide the product pickup option during returns.
+						</p>
+						<p>
+							If your pin code comes under this limitation, you
+							can return the product by self-shipping the item to
+							our return desk.
+						</p>
+						<p>
+							You can self-ship the item by sending the product to
+							any one of the following SwissSwan return desks:
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						What are my Pick-Up timelines?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							We always try to get the pick-up done at the
+							earliest. However, based on the pin codes and
+							courier partner assignment, the pick-up timeline may
+							vary from 3-7 days.
+						</p>
+						<p>
+							You can track the pick-up timeline for your active
+							orders here.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						What are my Refund timelines?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan initiates refunds once the product gets
+							picked up and the quality check is done. For
+							self-shipped items, the return is initiated after it
+							arrives at our return desk and passes the quality
+							check.
+						</p>
+						<p>
+							Refund time depends on the mode of refund selected
+							by you.
+						</p>
+						<ul>
+							<li>
+								<strong>For Bank Account:</strong> 1-3 business
+								days after the item reaches us.
+							</li>
+							<li>
+								<strong>For Online Refund:</strong> 7-10
+								business days after the item reaches us.
+							</li>
+							<li>
+								<strong>For Wallets:</strong> 1 business day
+								after the item reaches us.
+							</li>
+						</ul>
+						<p>
+							You can track the refund timeline for your active
+							orders here.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Why is my Return put on hold/declined?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							Usually, a return is put on hold/declined due to the
+							following reasons:
+						</p>
+						<p>
+							SDA are supposed to perform a set of checks that
+							reflect on their device as per the reason for
+							return. In case of any check failure, SDA will
+							refuse to pick up the product. You can ask the SDA
+							the reason for the pickup denial.
+						</p>
+						<p>
+							Also, ensure you raise the return request with the
+							correct reason code and hand over the right product
+							to SDA to avoid such instances.
+						</p>
+						<p>
+							Click below to talk to our customer care executive.
+						</p>
+						<div class="container">
+							<div class="col-md-6 col-sm-6">
+								<button><strong>Call Now</strong></button>
+								<p>
+									For a better experience, call from your
+									registered number.
+								</p>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<button><strong>Write To Us</strong></button>
+								<p>Average Response Time: 24-48 Hrs</p>
+							</div>
+						</div>
+					</li>
+					<hr />
+				</ul>
+			</div>
+		</div>
+		<div class="container info-section">
+			<div
+				class="col-md-8 col-sm-12 credit-and-insider-questions"
+				id="credit-and-insider-questions">
+				<h2 class="mini-heading">SwissSwan Credit and Insider</h2>
+				<p>
+					SwissSwan Credit is SwissSwan's wallet, where you can add
+					credits in the form of top-ups and gift cards. SwissSwan
+					credits are non-transferable and come with a validity period
+					of 12 months.
+				</p>
+				<ul>
+					<li class="question">
+						What is SwissSwan Credit?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan Credit is SwissSwan’s wallet, where you
+							can top up the amount, add Gift Cards and get
+							refunds easily.
+						</p>
+						<p>
+							<a href="#">Click here for complete</a> information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Can I choose SwissSwan Credit for
+						Cancellation/Refund?<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							Yes, you can choose SwissSwan Credit as the refund
+							mode while returning/cancelling the product.
+							SwissSwan Credit helps in providing a hassle-free
+							refund experience to customers.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						How can I check my SwissSwan Credit balance?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							You can follow the navigation mentioned below to
+							check your SwissSwan Credit balance:
+						</p>
+						<ul>
+							<li>
+								Profile > Payments & Currencies > SwissSwan
+								Credit
+							</li>
+						</ul>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Can I transfer SwissSwan Credit to my bank account?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							Unfortunately, the option to transfer SwissSwan
+							Credit balance to any bank account is not available.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						What is SwissSwan Insider & how can I become one?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							By meeting the purchase criteria, you can become
+							SwissSwan Insider.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="container info-section">
+			<div
+				class="col-md-8 col-sm-12 offer-questions"
+				id="offer-questions">
+				<ul>
+					<h2 class="mini-heading">Offer</h2>
+					<p>
+						For SwissSwan Bank and wallet offers, you can refer to
+						the payment page. Instant cashback will be applied
+						directly to the product or order value in your cart,
+						based on the eligibility criteria. Please note, the
+						cashback is subject to recovery in case of return or
+						cancellation.
+					</p>
+					<li class="question">
+						What are the Current Bank Offers? Where can I find
+						them?<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							You can view all active offers on the Payments page.
+						</p>
+						<p>
+							If you need further assistance, click below to
+							connect with our customer care executive.
+						</p>
+						<div class="container">
+							<div class="col-md-6 col-sm-6">
+								<button><strong>Call Now</strong></button>
+								<p>
+									For a better experience, call from your
+									registered number.
+								</p>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<button><strong>Write To Us</strong></button>
+								<p>Average Response Time: 24-48 Hrs</p>
+							</div>
+						</div>
+					</li>
+					<hr />
+					<li class="question">
+						What is Instant Cashback?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							Instant Cashback is a type of offer that is directly
+							applied to the product or order value in your cart.
+							The cashback amount is credited to your bank account
+							or credit card based on the respective bank's terms
+							and conditions.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						How does Instant Cashback recovery happen?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							If you place an order using an Instant Cashback
+							offer but partially cancel or return items, causing
+							the order value to drop below the minimum threshold
+							required by the offer terms, the cashback amount
+							will be subject to recovery.
+						</p>
+						<p>
+							The cashback will either be deducted from the refund
+							amount or the order value will be adjusted
+							accordingly.
+						</p>
+						<p>
+							Click below to talk to our customer care executive.
+						</p>
+						<div class="container">
+							<div class="col-md-6 col-sm-6">
+								<button><strong>Call Now</strong></button>
+								<p>
+									For a better experience, call from your
+									registered number.
+								</p>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<button><strong>Write To Us</strong></button>
+								<p>Average Response Time: 24-48 Hrs</p>
+							</div>
+						</div>
+					</li>
+					<hr />
+					<li class="question">
+						Why am I not getting a full refund?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							You had availed an instant cashback offer with your
+							order. Upon cancellation of item(s), the minimum
+							order value fell below the required threshold, and
+							as a result, the cashback provided has been deducted
+							and adjusted by the bank from the refund amount.
+						</p>
+						<p>
+							If you paid convenience charges at the time of order
+							delivery, please note that these charges are
+							non-refundable and have been deducted from the
+							refund.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						How do I apply for a coupon?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							On the Payments page, you will find an "Apply
+							Coupon" option. By clicking on this, all the coupons
+							applicable to your cart will be displayed, along
+							with the corresponding discount amounts.
+						</p>
+						<p>
+							You can also view all available coupons under the
+							Profile section.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Why am I unable to apply for a coupon?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							You can apply a coupon on the Cart page before
+							placing an order.
+						</p>
+						<p>
+							The complete list of your unused and valid coupons
+							is available under
+							<strong>Profile &gt; Coupons</strong>. Please note
+							that some coupons can only be applied to specific
+							catalogs.
+						</p>
+						<p>
+							If you encounter any issues,
+							<a href="#">click below</a> to talk to our customer
+							care executive.
+						</p>
+					</li>
+					<hr />
+				</ul>
+			</div>
+		</div>
+		<div class="container info-section">
+			<div
+				class="col-md-8 col-sm-12 payment-questions"
+				id="payment-questions">
+				<ul>
+					<h2 class="mini-heading">Payments</h2>
+					<p>
+						You can make payments using Cash on Delivery (available
+						in select pin codes), Credit Card, Debit Card, Net
+						Banking, Gift Card, Super Coins, or Wallet. Please note
+						that refund timelines may vary depending on the payment
+						method selected.
+					</p>
+					<li class="question">
+						Cards, Net banking<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan supports Credit Card, Debit Card, and Net
+							Banking as payment options during checkout.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Cash on Delivery<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan's Cash on Delivery option lets you pay the
+							order value at the time of delivery via cash or UPI.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Wallets, UPI<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan supports various Wallets (Paytm, Airtel
+							Money, Freecharge, PayZapp, Ola Money) and UPI
+							(PhonePe, Google Pay, BHIM UPI) as payment options
+							at the time of checkout.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						BNPL, EMI<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan supports Flipkart Pay Later and EMI
+							options as payment methods to make purchases easier
+							for customers at the time of checkout.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						SwissSwan Credit<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							SwissSwan Credit is SwissSwan's wallet, where you
+							can add a Gift Card, top up any amount, and receive
+							refunds for any item.
+						</p>
+						<p>
+							The balance available in the SwissSwan Credit wallet
+							can be used for future purchases.
+						</p>
+						<p>
+							<a href="#">Click here</a> for complete information.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Gift Cards (How to Redeem a Gift Card)<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							You can purchase gift cards from SwissSwan with a
+							specific amount.
+						</p>
+						<p>
+							The Gift Card number and PIN will be sent to your
+							registered email address. Once received, simply
+							enter the Gift Card number and PIN to top up your
+							SwissSwan Credit and start shopping.
+						</p>
+						<p><a href="#">Click here</a> for more details.</p>
+					</li>
+					<hr />
+				</ul>
+			</div>
+		</div>
+		<div class="container info-section">
+			<div
+				class="col-md-8 col-sm-12 cancellation-questions"
+				id="cancellation-questions">
+				<ul>
+					<h2 class="mini-heading">Cancellation and charges</h2>
+					<p>
+						You can track the status of your order in the "My
+						Orders" section. Cancellation and address modification
+						are allowed depending on the current status of the
+						order. For Cash on Delivery (COD) orders, online payment
+						can be made if the option is available.
+					</p>
+					<li class="question">
+						Extra charges, Convenience fee<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							A Convenience Fee of Rs. 79/- along with a Platform
+							Fee of Rs. 20/- will apply to orders below Rs.
+							1199/-. For orders containing only personal care
+							items priced under Rs. 299/-, a Convenience Fee of
+							Rs. 19/- and a Platform Fee of Rs. 20/- will be
+							applicable.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Cancellation Policy<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							You can now cancel an order if it is in the
+							packed/shipped status, provided the cancel option is
+							available on the App/Website/M-site.
+						</p>
+						<p>
+							This applies to items purchased during sales as
+							well.
+						</p>
+						<p>
+							The amount paid will be refunded to the same payment
+							method used during purchase, or you can choose to
+							receive the refund as SwissSwan credits.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Refund timelines for Cancellation<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							Once your order is canceled, the refund process will
+							be initiated.
+						</p>
+						<p>
+							The refund time varies depending on the chosen
+							refund method, as follows:
+						</p>
+						<ul>
+							<li>
+								<strong>Bank Account:</strong> 1-3 business days
+								after the item is received by us.
+							</li>
+							<li>
+								<strong>Online Refund:</strong> 7-10 business
+								days after the item is received by us.
+							</li>
+							<li>
+								<strong>Wallets:</strong> 1 business day after
+								the item is received by us.
+							</li>
+						</ul>
+					</li>
+					<hr />
+					<li class="question">
+						Where can I change the delivery address for my
+						order?<span onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							You can change the address on App/Website on the
+							item details page by selecting the item under your
+							orders section.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						Why did SwissSwan cancel my shipment?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							Apologies for the inconvenience! Please check your
+							Orders section to learn the reason for the
+							cancellation of your order.
+						</p>
+					</li>
+					<hr />
+					<li class="question">
+						How do I track my order?<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							You can conveniently track your order in the Orders
+							section of your SwissSwan profile.
+						</p>
+						<a href="#" class="swissswan-link"
+							>Click here to check the status of your order.</a
+						>
+					</li>
+					<hr />
+					<li class="question">
+						Deliver on specific date / Faster<span
+							onclick="toggleAnswer(this)"
+							><img src="images/icon/arrow-down-3101.svg"
+						/></span>
+					</li>
+					<li class="answer">
+						<p>
+							We strive to deliver your order as quickly as
+							possible. However, the delivery timeline may vary
+							based on the pin codes and courier partner
+							assignment.
+						</p>
+						<p>
+							At the moment, we are unable to fulfill your request
+							for Scheduled delivery. However, you can coordinate
+							with our Style Delivery agent once the order is out
+							for delivery.
+						</p>
+						<a href="#" class="swissswan-link"
+							>Click here to talk to our customer care
+							executive.</a
+						>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- widget section -->
+		<div class="widget-section bottom-shadow">
+			<!-- container -->
+			<div class="container">
+				<!-- widget about -->
+				<aside class="col-md-3 col-sm-3 widget widget_about">
+					<h3 class="widget-title logo-block">
+						<a title="Logo" href="index.html"> The Swiss Swan </a>
+					</h3>
+				</aside>
+				<!-- widget about /- -->
+
+				<!-- col-md-6 -->
+				<div class="col-md-6 col-sm-6">
+					<aside class="col-md-4 col-sm-4 widget widget_list_style">
+						<h3 class="widget-title">GET INSPIRED</h3>
+						<ul>
+							<li>
+								<a title="About Us" href="02_categories.html"
+									>About Us</a
+								>
+							</li>
+							<li>
+								<a title="Be Our Swan" href="02_categories.html"
+									>Be Our Swan</a
+								>
+							</li>
+							<li>
+								<a
+									title="Get Featured"
+									href="02_categories.html"
+									>Get Featured</a
+								>
+							</li>
+							<li>
+								<a title="Gift Cards" href="02_categories.html"
+									>Gift Cards</a
+								>
+							</li>
+							<li>
+								<a title="Site Map" href="02_categories.html"
+									>Site Map</a
+								>
+							</li>
+							<li>
+								<a title="Contact Us" href="02_categories.html"
+									>Contact Us</a
+								>
+							</li>
+						</ul>
+					</aside>
+
+					<aside class="col-md-4 col-sm-4 widget widget_list_style">
+						<h3 class="widget-title">ACCOUNT</h3>
+						<ul>
+							<li>
+								<a title="Order Status" href="#"
+									>Order Status</a
+								>
+							</li>
+							<li>
+								<a title="My Order History" href="#"
+									>My Order History</a
+								>
+							</li>
+							<li>
+								<a title="My Favorites" href="#"
+									>My Favorites</a
+								>
+							</li>
+							<li>
+								<a title="Promo codes" href="#">Promo codes</a>
+							</li>
+							<li>
+								<a title="Payments" href="#">Payments</a>
+							</li>
+							<li>
+								<a title="Cancellations" href="#"
+									>Cancellationss</a
+								>
+							</li>
+							<li><a title="Returns" href="#">Returns</a></li>
+							<li>
+								<a title="Grievance Redressal" href="#"
+									>Grievance Redressal</a
+								>
+							</li>
+						</ul>
+					</aside>
+
+					<aside class="col-md-4 col-sm-4 widget widget_list_style">
+						<h3 class="widget-title">USEFUL LINKS</h3>
+						<ul>
+							<li><a title="HELP" href="#">Help</a></li>
+							<li><a title="FAQ" href="#">FAQ</a></li>
+							<li><a title="T&C" href="#">T&C</a></li>
+							<li>
+								<a title="TERMS OF USE" href="#"
+									>Terms of Use</a
+								>
+							</li>
+							<li>
+								<a title="Customer Policies" href="#"
+									>Customer Policies</a
+								>
+							</li>
+							<li><a title="BLOG" href="#">Blog</a></li>
+							<li>
+								<a title="Privacy Policy" href="#"
+									>Privacy Policy</a
+								>
+							</li>
+						</ul>
+					</aside>
+				</div>
+				<!-- col-md-6 /- -->
+
+				<aside class="col-md-3 col-sm-3 widget widget_facebook">
+					<div class="widget-title">
+						<h4>By <span>Karunakirti Madaan </span></h4>
+						<button
+							type="submit"
+							value="like"
+							class="btn btn-default pull-right">
+							Like <i class="fa fa-thumbs-o-up"></i>
+						</button>
+					</div>
+					<ul>
+						<li>
+							<a title="Facebook photo" href="#"
+								><img
+									src="images/footer/fb-1.jpg"
+									alt="facebook-photo"
+							/></a>
+						</li>
+						<li>
+							<a title="Facebook photo" href="#"
+								><img
+									src="images/footer/fb-2.jpg"
+									alt="facebook-photot"
+							/></a>
+						</li>
+					</ul>
+				</aside>
+			</div>
+			<!-- container /- -->
+		</div>
+		<!-- widget section /- -->
+		<!-- Footer bottom -->
+		<div class="footer-bottom">
+			<!-- container -->
+			<div class="container">
+				<div class="col-md-3 col-sm-3 top-header">
+					<ul class="top-social">
+						<li>
+							<a title="Facebook" href="#"
+								><i class="fa fa-facebook"></i
+							></a>
+						</li>
+						<li>
+							<a title="Twitter" href="#"
+								><i class="fa fa-twitter"></i
+							></a>
+						</li>
+						<li>
+							<a title="Google plus" href="#"
+								><i class="fa fa-google-plus"></i
+							></a>
+						</li>
+						<li>
+							<a title="Pinterest" href="#"
+								><i class="fa fa-pinterest-p"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-sm-6 copy-rights">
+					<p>The Swiss Swan &copy; 2025. All Rights Reserved.</p>
+				</div>
+			</div>
+			<!-- container /- -->
+			<a
+				title="Back-to-top"
+				id="back-to-top"
+				href="#back-to-top"
+				class="back-to-top"
+				><i class="fa fa-caret-up"></i
+			></a>
+		</div>
+		<!-- Footer Bottom -->
+		<div></div>
+		<!-- Footer Section /- -->
+
+		<!-- jQuery Include -->
+
+		<!-- all js here -->
+
+		<!-- jquery latest version -->
+
+		<script src="libraries/jquery.min.js"></script>
+		<script src="libraries/bootstrap/bootstrap.min.js"></script>
+		<!-- Core Bootstrap v3.3.4 -->
+		<script src="libraries/wow.min.js"></script>
+		<!-- Use For Animation -->
+		<!--Tawk.to Script-->
+		<script type="text/javascript">
+			var Tawk_API = Tawk_API || {},
+				Tawk_LoadStart = new Date();
+			(function () {
+				var s1 = document.createElement("script"),
+					s0 = document.getElementsByTagName("script")[0];
+				s1.async = true;
+				s1.src =
+					"https://embed.tawk.to/6797f3983a84273260758250/1iikov379";
+				s1.charset = "UTF-8";
+				s1.setAttribute("crossorigin", "*");
+				s0.parentNode.insertBefore(s1, s0);
+			})();
+		</script>
+		<!--End of Tawk.to Script-->
+		<script src="js/functions.js"></script>
+		<script src="js/toggleAnswer.js"></script>
+		<script src="js/LoadComponents.js"></script>
+	</body>
+</html>

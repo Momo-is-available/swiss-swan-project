@@ -1,0 +1,16 @@
+  {
+    "name": "theswisswan",
+    "version": "1.0.0",
+    "description": "E-commerce Website",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "firebase": "^11.1.0",
+      "jquery": "^3.7.1"
+    }
+  }
