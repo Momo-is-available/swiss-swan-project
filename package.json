@@ -1,16 +1,22 @@
-  {
+{
     "name": "theswisswan",
     "version": "1.0.0",
     "description": "E-commerce Website",
     "main": "server.js",
+    "type": "module",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "firebase": "^11.1.0",
-      "jquery": "^3.7.1"
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "firebase": "^11.1.0",
+        "jquery": "^3.7.1",
+        "node-fetch": "^3.3.2",
+        "path": "^0.12.7",
+        "url": "^0.11.4"
     }
-  }
+}
