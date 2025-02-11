@@ -168,6 +168,21 @@
 										value="Login"
 										class="btn btn-default pull-right" />
 								</div>
+								<div class="form-group">
+									<p>Or login with:</p>
+									<button
+										type="button"
+										class="btn btn-primary"
+										id="google-login">
+										Google
+									</button>
+									<button
+										type="button"
+										class="btn btn-primary"
+										id="facebook-login">
+										Facebook
+									</button>
+								</div>
 							</form>
 						</div>
 					</div>
@@ -534,7 +549,6 @@
 		<!-- Light Box -->
 		<!-- Customized Scripts -->
 		<script src="js/functions.js"></script>
-		<script src="js/LoadComponents.js"></script>
 
 		<!-- Firebase SDK -->
 		<script
@@ -544,6 +558,10 @@
 		<script
 			type="module"
 			src="./Firebase/FirebaseAuthentication.js"
+			defer></script>
+		<script
+			type="module"
+			src="./Firebase/FirebaseSocialLogin.js"
 			defer></script>
 	</body>
 </html>
